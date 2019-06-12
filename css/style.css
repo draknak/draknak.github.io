@@ -13,3 +13,7 @@
     background-image: url("../img/test.jpg");
     height: 500px;
 }
+
+body {
+    margin: 0;
+}
