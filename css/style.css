@@ -21,6 +21,8 @@
     padding-top: 300px;
     color: lightskyblue;
     font-family: Helvetica;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 * {
