@@ -21,6 +21,9 @@
     padding-top: 300px;
     color: lightskyblue;
     font-family: Helvetica;
+}
+
+.my-name {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
