@@ -10,7 +10,7 @@
     grid-column-end: 4; 
     grid-row-start: 1; 
     grid-row-end: 3; 
-    background-image: url("../img/test.jpg");
+    background-image: url("../img/header-background.jpg");
     height: 500px;
 }
 
