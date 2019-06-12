@@ -13,6 +13,7 @@
     grid-row-start: 1; 
     grid-row-end: 3; 
     background-image: url("../img/header-background.jpg");
+    opacity: 0.5;
     height: 600px;
 }
 
@@ -22,7 +23,6 @@
     text-align: center;
     padding-top: 300px;
     color: #209CEE;
-    
     text-shadow:
     -1px -1px 0 #000,  
      1px -1px 0 #000,
