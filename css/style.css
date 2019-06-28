@@ -271,5 +271,29 @@ li {
 /* End About */
 
 /* Portfolio */
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
 
+.portfolio-item:last-child {
+    margin-bottom: 0;
+}
+
+.portfolio-img {
+    flex: 1;
+}
+
+.portfolio-description {
+    flex: 1;
+}
+
+.portfolio-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0.3;
+}
 /* End Portfolio */
