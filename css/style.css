@@ -291,11 +291,9 @@ li {
 
 .portfolio-img {
     width: 50rem;
-    flex: 1;
 }
 
 .portfolio-description {
-    flex: 2;
 }
 
 .portfolio-description h6{
