@@ -17,6 +17,10 @@ body {
     background-color: #16162d;
 }
 
+section {
+    padding: 6rem;
+}
+
 a {
     text-decoration: none;
     color: #eee;
@@ -84,6 +88,9 @@ img {
     font-weight: 400;
 }
 
+.has-margin-right {
+    margin-right: 5rem;
+}
 /* End Reusable */
 
 /* Header */
@@ -283,11 +290,11 @@ li {
 }
 
 .portfolio-img {
+    width: 50rem;
     flex: 1;
 }
 
 .portfolio-description {
-    flex: 1;
 }
 
 .portfolio-description h6{
