@@ -295,6 +295,7 @@ li {
 }
 
 .portfolio-description {
+    flex: 2;
 }
 
 .portfolio-description h6{
