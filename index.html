@@ -177,8 +177,24 @@
                     <h1>Contact</h1>
                     <h6>Get in contact</h6>
                 </div>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="name" placeholder="Enter your name..." required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" class="email" placeholder="Enter you email: email@something.com" required>
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="submit">
+                </form>
             </div>
         </section>
+
+        <footer class="copyright">
+            <div class="up" id="up">
+                <i class="fas fa-chevron-up"></i>
+                <p>&copy; Joseph Thorpe 2019</p>
+            </div>
+        </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
