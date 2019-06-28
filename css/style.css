@@ -45,6 +45,8 @@ header {
     position: fixed;
     top: -100vh;
     background-color: #16162d;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
 }
 
@@ -84,7 +86,7 @@ li {
     top: 5rem;
     right: 5rem;
     width: 5rem;
-    height: 5rem;
+    height: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -114,7 +116,7 @@ li {
 }
 
 .open .bar.start {
-    transform: rotate(-360deg) translateX(.8rem);
+    transform: rotate(-450deg) translateX(.8rem);
 }
 
 .bar.end {
@@ -124,6 +126,6 @@ li {
 }
 
 .open .bar.end {
-    transform: rotate(-360deg) translateX(-.8rem);
+    transform: rotate(-450deg) translateX(-.8rem);
 }
 /* End Header */
