@@ -457,11 +457,57 @@ input[type="submit"]:hover {
 
 /* Media Queries */
 @media screen and (max-width: 760px) {
-    header {
-    width: 100%;
-    height: 100vh;
-    background: url("../img/header-background2.jpg") no-repeat center fixed;
-    background-size: cover;
-}
+        header {
+        background: url("../img/header-background2.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .landing-text h1 {
+        font-size: 15rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.7rem;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 2rem 0;
+    }
+
+    .nav-link {
+        font-size: 4.5rem;
+    }
+
+    .about-heading h1 {
+        font-size: 8rem;
+    }
+
+    .section-heading h1 {
+        font-size: 3rem;
+    }
+
+    .about-details .nav-list {
+        flex-direction: initial;
+    }
+
+    .about-details li {
+        margin: 0 2rem;
+    }
+
+    .timeline ul {
+        margin: 0 0 0 auto;
+    }
+
+    .timeline .date::before {
+        left: -20rem;
+    }
+
+    .timeline .date::after {
+        left: -5.9rem;
+    }
 }
 
