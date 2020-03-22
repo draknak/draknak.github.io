@@ -91,6 +91,11 @@ img {
 .has-margin-right {
     margin-right: 5rem;
 }
+
+.in-text-url {
+    text-decoration: underline;
+    color: #eee;
+}
 /* End Reusable */
 
 /* Header */
