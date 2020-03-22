@@ -22,7 +22,6 @@ section {
 }
 
 a {
-    text-decoration: none;
     color: #eee;
 }
 
@@ -93,8 +92,7 @@ img {
 }
 
 .in-text-url {
-    text-decoration: underline;
-    color: #eee;
+    color: #3883ff;
 }
 /* End Reusable */
 
