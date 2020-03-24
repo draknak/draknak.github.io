@@ -100,8 +100,7 @@ img {
 header {
     width: 100%;
     height: 100vh;
-    background: url("../img/header-background.jpg") no-repeat center fixed;
-    background-size: cover;
+    background-color: white;
 }
 
 .nav-top {
@@ -195,29 +194,44 @@ li {
     transform: rotate(-450deg) translateX(-.8rem);
 }
 
+.intro {
+    padding: 12.5% 0%;
+}
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #211F1F;
+}
+
 .landing-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
     z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    flex: 1;
 }
 
 .landing-text h1{
-    font-size: 20rem;
     font-family: 'Maven Pro', sans-serif;
     background: linear-gradient(to top, #c99cf6, #9ebef6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
     user-select: none;
+    font-size: 10rem;
 }
 
 .landing-text h6 {
     font-size: 2rem;
     font-weight: 400;
+    color: #c99cf6;
+}
+
+.profile-img {
+    flex: 1;
+    margin-right: 5rem;
 }
 /* End Header */
 
@@ -243,15 +257,6 @@ li {
 .about-heading h6{
     font-size: 2rem;
     font-weight: 400;
-}
-
-.profile-img {
-    flex: 1;
-    margin-right: 5rem;
-}
-
-.profile-img img{
-    border-radius: 50%;
 }
 
 .about-details {
@@ -382,45 +387,6 @@ li {
     background-color: #313534;
 }
 /* End Timeline */
-
-/* Contact Form */
-.contact {
-    background-color: #221e3f;
-}
-
-form {
-    width: 70%;
-    margin: 0 auto;
-}
-
-form label {
-    font-size: 1.5rem;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    outline-color: #9ebef6;
-}
-
-input[type="submit"] {
-    width: initial;
-    background-color: #9ebef6;
-    color: #eee;
-    padding: 1rem 2rem;
-    border-radius: 0.8rem;
-    cursor: pointer;
-    transition: background-color 650ms;
-}
-
-input[type="submit"]:hover {
-    color: #221e3f;
-    background-color: #c99cf6;
-}
-/* End Contact Form */
 
 /* Footer */
 .copyright {
